@@ -1,0 +1,58 @@
+<ion-view view-title="Forgot" class="body">
+  <ion-content  ng-show="!state.success">
+
+
+        <div class="signin-title-holder" >
+              <div class="title-back" ui-sref="landing">
+                <img class="title-back-icon" src="img/icon-arrow-back.png">
+              </div>
+
+              <div class="title-txt">
+                ForgotPass
+              </div>
+
+              <div class="title-gradient-holder">
+                <img class="title-gradient" src="img/gradient.png">
+              </div>
+        </div>
+
+            <div class="list signin-form-group">
+
+              <label class="item item-input">
+                <input type="email" placeholder="E-Mail" ng-model="user.email" >
+              </label>
+            </div>
+
+            <div class="button-group-signin">
+                <button class="button button-block button-landing"  ng-click="reset()">
+                  Send
+                </button>
+
+            </div>
+
+
+  </ion-content>
+
+  <ion-content ng-show="state.success">
+    <div class="signin-title-holder" >
+          <div class="title-back" ui-sref="landing">
+            <img class="title-back-icon" src="img/icon-arrow-back.png">
+          </div>
+
+          <div class="title-txt">
+            ForgotPass
+          </div>
+
+          <div class="title-gradient-holder">
+            <img class="title-gradient" src="img/gradient.png">
+          </div>
+    </div>
+
+
+        <div class="positive">An email has been sent to you with instructions on resetting your password.</div>
+        <button class="button button-block button-clear button-calm" ng-click="login()">
+            Log In
+        </button>
+    </ion-content>
+
+</ion-view>

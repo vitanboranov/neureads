@@ -1,0 +1,50 @@
+<ion-view view-title="Categories" class="body" hide-nav-bar="true">
+  <div class="signin-title-holder" >
+        <div class="title-back" ui-sref="browse">
+          <img class="title-back-icon" src="img/icon-arrow-back.png">
+        </div>
+
+        <div class="title-txt">
+          Categories
+        </div>
+
+        <div class="title-gradient-holder">
+          <img class="title-gradient" src="img/gradient.png">
+        </div>
+  </div>
+
+    <div class="cat-list-holder">
+      <div class="cat-list-item" ng-click="browse(false)">
+        <img class="cat-list-selected " src="img/icon-selected-genre.png">
+      Discover
+      </div>
+
+      <div class="cat-list-item" ng-click="browse(true)">
+        <img class="cat-list-selected " src="img/icon-selected-genre.png">
+      My Favourites
+      </div>
+
+      <div class="cat-seperator"></div>
+
+      <div class="cat-list-item" ng-repeat="category in categories" ng-click="browse(false, category)">
+        <img class="cat-list-selected " src="img/icon-selected-genre.png">
+      {{category.name}}
+      </div>
+
+      <div class="cat-seperator"> </div>
+
+    </div>
+
+    <div class="cat-footer-buts-holder">
+      <div class="cat-footer-but  book-line" ui-sref="about">
+        About
+      </div>
+
+      <div class="cat-footer-but" ng-click="logout()">
+        Sign Out
+      </div>
+
+    </div>
+
+
+</ion-view>

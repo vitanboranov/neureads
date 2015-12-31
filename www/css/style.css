@@ -1,0 +1,315 @@
+/* Neureads */
+
+.body {
+  font-family: 'PT Serif', serif;
+  background-color: rgb(245, 243, 228);
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(117, 117, 109);
+  font-size: 13pt;
+}
+
+.bar.bar-light {
+  background:none !important;
+  border:none !important;
+}
+
+.scroll-content {
+  overflow: visible !important;
+}
+
+.title {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  color: rgb( 92, 91, 85);
+  line-height: 120%;
+  text-align: center;
+}
+
+.landing-holder {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.landing-logo {
+  width: 107px;
+  height: auto;
+  margin-top: 60px;
+}
+
+.landing-logotype {
+  width: 240px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.button {
+  background-color: rgb(245, 243, 228);
+  border-color: rgb(194, 193, 180);
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-size: 10pt;
+  height: 55px;
+}
+
+.button.button-block {
+  margin-top: 30px;
+}
+
+.button.activate, .button.activated {
+  background-color: rgb(117, 117, 109);
+  border-color: rgb(117, 117, 109);
+  color: rgb(245, 243, 228);
+}
+
+.button.button-landing-naked {
+  border-color: rgb(245, 243, 228);
+  margin-top: 0px;
+}
+
+.button-group-signin {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -20px;
+}
+
+.button.button-signin-naked {
+  border-color: rgb(245, 243, 228);
+  margin-top: 0px;
+  color: rgb(168, 167, 157);
+}
+
+.signin-form-group {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.item-input {
+  background-color: rgb(245, 243, 228);
+  border-color: rgb(194 193 180);
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+input {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-size: 10pt;
+  color: rgb(117, 117, 109);
+}
+
+.item {
+  border: 0px solid rgb(245, 243, 228);
+  border-bottom: 1px solid rgb(194, 193, 180);
+}
+
+.signin-title-holder {
+  height: 80px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+.title-back {
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.title-back-icon {
+  width: 10px;
+  height: auto;
+  margin-top: 34px;
+}
+
+.title-txt {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-size: 60px;
+  color: rgb( 230, 228, 213);
+  position: relative;
+  top: 32px;
+}
+
+.title-gradient {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.cat-list-holder{
+  margin-left: 60px;
+}
+
+.cat-list-item{
+  margin-bottom: 0px;
+  height: 50px;
+  width: 100%;
+  padding-top: 18px;
+}
+
+.cat-list-selected{
+  width: 16px;
+  height: auto;
+  display: none;
+  font-weight: 700;
+}
+
+.cat-show {
+  display: inline;
+  margin-left: -40px;
+  margin-right: 20px;
+}
+
+.cat-seperator{
+  height: 2px;
+  width: 20px;
+  border-bottom: 1px solid rgb(194, 193, 180);
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.cat-footer-buts-holder{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cat-footer-but{
+  width: 50%;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+  float: left;
+  height: 50px;
+  padding-top: 18px;
+}
+
+/* About */
+
+.aboutbg{
+  background-color: rgb(66, 66, 62);
+  color: rgb(89, 89, 84);
+}
+
+.about-copyright{
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(133, 132, 123);
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+}
+
+.about-logo{
+  width: 100%;
+  text-align: center;
+  height: 150px;
+  margin-top: 110px;
+}
+
+.logoheytack {
+  width: 200px;
+  height: auto;
+}
+
+.heytack-url{
+  margin-top: 15px;
+  font-size: 18px;
+  color: rgb(235, 233, 218);
+}
+
+.book_slider {
+  margin-top:-30px;
+  z-index:999;
+}
+
+.book_image {
+  display:block;
+  width:280px;
+  margin: 0 auto;
+  box-shadow: 0px 15px 40px rgba(0,0,0,0.2);
+}
+
+.slider-pager {
+  display: none;
+}
+
+.button-hide {
+  display: none;
+}
+
+.book-info-holder {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.author-icon{
+  width: 12px;
+  float: left;
+  margin-top: 4px;
+  margin-right: 6px;
+}
+
+.author-txt{
+  font-family: 'PT Serif', serif;
+  font-size: 13px;
+  color: rgb( 168, 167, 157);
+}
+
+.bookname-txt{
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  color: rgb( 92, 91, 85);
+  margin-top: 2px;
+  line-height: 120%;
+}
+
+.book-buttons-holder{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 30px;
+}
+
+.book-buttons{
+  width: 50%;
+  text-align: center;
+  float: left;
+
+}
+
+.book-line{
+  border-right: 1px solid rgb(235, 233, 218);
+}
+
+.book-buttons-like{
+  width: 38px;
+  height: auto;
+}
+
+.book-buttons-detail{
+  width: 38px;
+  height: auto;
+}

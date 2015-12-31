@@ -1,0 +1,41 @@
+<ion-view view-title="Browse" class="body" hide-nav-bar="true" cache-view="false">
+
+    <div class="signin-title-holder" ui-sref="categories">
+        <div class="title-txt">
+            {{category_name}}
+        </div>
+
+        <div class="title-gradient-holder">
+            <img class="title-gradient" src="img/gradient.png">
+        </div>
+    </div>
+
+    <ion-slide-box class="book_slider" on-slide-changed="slideHasChanged($index)">
+        <ion-slide ng-repeat="image in images">
+            <div class="book_holder">
+                <img class="book_image" ng-src="{{image._url}}">
+            </div>
+        </ion-slide>
+    </ion-slide-box>
+
+    <div class="book-info-holder">
+        <img class="author-icon" src="img/icon-author.png">
+        <div class="author-txt">
+            {{author_name}}
+        </div>
+
+        <div class="bookname-txt">
+            {{book_name}}
+        </div>
+
+        <div class="book-buttons-holder">
+            <div class="book-buttons book-line">
+                <img class="book-buttons-like" src="img/icon-liked.png" ng-show="favourites.indexOf(book_id) > -1" ng-click="addFavourites(book_id)">
+                <img class="book-buttons-like" src="img/icon-like.png" ng-show="favourites.indexOf(book_id) == -1" ng-click="addFavourites(book_id)">
+            </div>
+            <a class="book-buttons" ng-click="details()">
+                <img class="book-buttons-detail" src="img/icon-detail.png">
+            </a>
+        </div>
+
+    </ion-view>

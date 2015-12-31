@@ -1,0 +1,40 @@
+<ion-view view-title="Sign Up" class="body" hide-nav-bar="true">
+  <ion-content>
+
+    <div class="signin-title-holder" >
+          <div class="title-back" ui-sref="landing">
+            <img class="title-back-icon" src="img/icon-arrow-back.png">
+          </div>
+
+          <div class="title-txt">
+            SignUp
+          </div>
+
+          <div class="title-gradient-holder">
+            <img class="title-gradient" src="img/gradient.png">
+          </div>
+    </div>
+
+        <div class="list signin-form-group">
+          <label class="item item-input">
+            <input type="text" placeholder="Full Name" ng-model="user.fullname">
+          </label>
+          <label class="item item-input">
+            <input type="email" placeholder="E-Mail" ng-model="user.email">
+          </label>
+          <label class="item item-input">
+            <input type="password" placeholder="Password"  ng-model="user.password">
+          </label>
+        </div>
+
+        <div class="button-group-signin" >
+            <button class="button button-block button-landing" ng-click="register()">
+              SignUp
+            </button>
+
+<div class="assertive" ng-show="error.message">{{error.message}}</div>
+        </div>
+
+
+  </ion-content>
+</ion-view>
